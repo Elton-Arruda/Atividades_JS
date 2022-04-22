@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+        <header>
+          <div class="title">
+            <title>
+              7 Days of Code - Dia 5
+              </title>
+            <h1>7 Days of Code - Dia 5</h1>
+            <h2>Lista de compras</h2>
+          </div>
+        </header>
+        <main>
+          <div class="content" id="content">
+            <p>Vamos às compras?</p>
+            <p>Primeiro adicione os produtos na lista, depois que adicionar todos os produtos clique em finalizar</p>
+             Produto: <input type="text" id="item"><br>
+             Quantidade: <input type="text" id="quantidade"><br>
+             <div id="divCategorias"></div>
+             <br><button class="normalButton" onclick="addItem()">Adicionar Item</button>
+             <br><button class="confirmButton" onclick="exibirLista()">Finalizar</button>
+             <div class="mensagem">
+               <p id="mensagem"></p>
+              </div>
+          </div>
+        </main>
+        <script src="index.js"></script>
+      </body>
+</html>
